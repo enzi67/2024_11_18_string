@@ -3,8 +3,11 @@ Az előbbi programot módosítsd úgy, hogy újabb és újabb mondatot kérjen b
 egy ENTER-t nem üt), majd állapítsa meg, és írja ki mineden egyes alkalommal a mondat fajtáját!
 """
 
-vvv = input("Írj egy mondatot! ")
 while True:
+    vvv = input("Írj egy mondatot! ")
+    if vvv == "":
+        break
+
     if vvv [-1] == ".":
         print("Ez a mondat kijelentő.")
     elif vvv [-1] == "?":
