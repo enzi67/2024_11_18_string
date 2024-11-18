@@ -5,6 +5,7 @@ egy ENTER-t nem üt), majd állapítsa meg, és írja ki mineden egyes alkalomma
 
 while True:
     vvv = input("Írj egy mondatot! ")
+    
     if vvv == "":
         break
 
