@@ -1,4 +1,3 @@
-
 sztring = 'Ismered ezt a számot?'
 
 # Index-szel hivatkozhatunk egy elemükre
@@ -15,8 +14,8 @@ print(len(sztring))
 
 # for-ciklussal is bejárhatóak
 for betu in sztring:
-if betu == 'e' or betu == 'E':
-    szamlalo += 1
+    if betu == 'e' or betu == 'E':
+        szamlalo += 1
 print(f'A sztringben {szamlalo} db e/E betű van.')
 
 # Ezeknél is használható az in operátor
