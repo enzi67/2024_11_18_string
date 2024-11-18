@@ -13,10 +13,14 @@ print(sztring[7:])
 print(len(sztring))
 
 # for-ciklussal is bejárhatóak
+szamlalo = 0
 for betu in sztring:
     if betu == 'e' or betu == 'E':
         szamlalo += 1
 print(f'A sztringben {szamlalo} db e/E betű van.')
+
+e_betuk = string.count("e") + e_betuk = string.count("E")
+print(e_betuk)
 
 # Ezeknél is használható az in operátor
 if 'e' in sztring:
